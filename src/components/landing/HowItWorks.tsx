@@ -1,43 +1,62 @@
 import React from 'react';
-import { Card, CardContent } from '@/components/ui/card';
+import { ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const steps = [
   {
-    step: '01',
-    title: 'Book Your Free Consultation',
-    description: 'Schedule a complimentary 15-minute call to discuss your needs and see if we\'re a good fit.',
+    num: '1.',
+    title: 'FREE CONSULTATION',
+    description: 'We meet each other and I learn about your needs and goals.',
   },
   {
-    step: '02',
-    title: 'Begin Your Sessions',
-    description: 'Start your personalized one-on-one sessions, either online or in-person.',
+    num: '2.',
+    title: 'COUNSELLING PLAN',
+    description: 'I provide a counselling plan tailored to your unique situation.',
   },
   {
-    step: '03',
-    title: 'Integrate & Grow',
-    description: 'Apply the insights and practices from our sessions to create lasting change in your life.',
+    num: '3.',
+    title: 'YOUR HEALING BEGINS',
+    description: 'You receive support until you flourish without my help.',
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section className="py-16 md:py-24 bg-card">
-      <div className="container mx-auto px-4">
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-medium mb-4">How It Works</h2>
-        </div>
-        <div className="grid md:grid-cols-3 gap-8">
-          {steps.map(item => (
-            <Card key={item.step} className="border-0 shadow-none bg-transparent">
-              <CardContent className="p-0">
-                <div className="text-5xl font-bold font-serif text-accent mb-4">{item.step}</div>
-                <h3 className="text-xl font-bold font-serif mb-2">{item.title}</h3>
-                <p className="text-muted-foreground">{item.description}</p>
-              </CardContent>
-            </Card>
+    <section className="bg-card rounded-5xl my-24 py-24">
+      <div className="container mx-auto px-6 text-center">
+        <span className="inline-block px-4 py-1 text-xs font-semibold text-primary bg-background border border-border rounded-full">
+          HOW IT WORKS
+        </span>
+        <h2 className="mt-4 text-5xl md:text-6xl font-serif font-medium text-foreground">
+          Just Three Easy Steps
+        </h2>
+        <p className="mt-4 text-lg text-muted-foreground">
+          I keep the process simple, so we can focus on what matters.
+        </p>
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
+          {steps.map((step, index) => (
+            <React.Fragment key={step.title}>
+              <div className="text-center md:text-left col-span-1">
+                <p className="text-6xl font-serif text-primary/50">{step.num}</p>
+                <h3 className="mt-2 text-xl font-semibold uppercase">{step.title}</h3>
+                <p className="mt-2 text-muted-foreground">{step.description}</p>
+              </div>
+              {index < steps.length - 1 && (
+                <div className="hidden md:flex justify-center col-span-1">
+                  <ArrowRight className="w-16 h-16 text-primary" />
+                </div>
+              )}
+            </React.Fragment>
           ))}
         </div>
+        <Button asChild size="lg" className="mt-16 text-primary-foreground bg-gradient-to-br from-primary to-accent rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
+           <a
+              href="#"
+            >
+              Book My Free Consultation
+            </a>
+        </Button>
       </div>
     </section>
   );
-}
+};
