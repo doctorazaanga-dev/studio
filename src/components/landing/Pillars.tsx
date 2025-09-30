@@ -5,34 +5,34 @@ import { Heart, Compass, Zap } from 'lucide-react';
 const pillars = [
   {
     icon: <Heart className="w-8 h-8 text-primary" />,
-    title: 'Emotional Healing',
-    description: 'Address past traumas and emotional blockages in a safe and supportive space.',
+    title: 'EMOTIONAL HEALING',
+    description: 'Release stress, anxiety, and past traumas',
   },
   {
     icon: <Compass className="w-8 h-8 text-primary" />,
-    title: 'Spiritual Guidance',
-    description: 'Explore your spiritual path and connect with your inner wisdom and intuition.',
+    title: 'CLARITY & PURPOSE',
+    description: 'Gain insight into your life\'s direction',
   },
   {
     icon: <Zap className="w-8 h-8 text-primary" />,
-    title: 'Personal Growth',
-    description: 'Unlock your potential and cultivate a life of purpose, joy, and fulfillment.',
+    title: 'SPIRITUAL CONNECTION',
+    description: 'Align with your values and higher self',
   },
 ];
 
 export default function Pillars() {
   return (
-    <section className="py-12 md:py-24 bg-card">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8">
-          {pillars.map((pillar) => (
-            <Card key={pillar.title} className="text-center p-8 bg-background border-0 shadow-none">
-              <div className="flex justify-center mb-4">{pillar.icon}</div>
-              <h3 className="text-xl font-bold font-serif mb-2">{pillar.title}</h3>
-              <p className="text-muted-foreground">{pillar.description}</p>
-            </Card>
-          ))}
-        </div>
+    <section className="container mx-auto px-6 py-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+        {pillars.map((pillar) => (
+          <div key={pillar.title} className="flex flex-col items-center">
+             <div className="w-16 h-16 bg-card rounded-full flex items-center justify-center shadow-md">
+              {pillar.icon}
+            </div>
+            <h3 className="mt-6 text-xl font-semibold text-foreground">{pillar.title}</h3>
+            <p className="mt-2 text-muted-foreground">{pillar.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
