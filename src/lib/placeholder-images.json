@@ -15,7 +15,7 @@
     {
       "id": "about",
       "description": "Portrait of a counselor",
-      "imageUrl": "https://images.unsplash.com/photo-1741805190461-eeda3ba59bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3Vuc2Vsb3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyNTA1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://github.com/doctorazaanga-dev/pics/blob/main/doctor%20azaanga.jpg?raw=true",
       "imageHint": "counselor portrait"
     },
     {
@@ -27,7 +27,7 @@
     {
       "id": "court-cases",
       "description": "A gavel and law books",
-      "imageUrl": "https://static.wixstatic.com/media/96bbc7_4ffefc4e6f674e8fa9c545ff3308cc24~mv2.jpg/v1/fill/w_287,h_323,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Cleansing%20Rituals.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1617118601652-3ec3aeaa0e36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYXZlbCUyMGxhd3xlbnwwfHx8fDE3NTkyMjQ4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gavel law"
     },
     {
