@@ -17,6 +17,78 @@
       "description": "Portrait of a counselor",
       "imageUrl": "https://images.unsplash.com/photo-1741805190461-eeda3ba59bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3Vuc2Vsb3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyNTA1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "counselor portrait"
+    },
+    {
+      "id": "witchcraft-rituals",
+      "description": "Mystical items for a witchcraft ritual",
+      "imageUrl": "https://images.unsplash.com/photo-1603561128776-9e902caa6c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3aXRjaGNyYWZ0JTIwaXRlbXN8ZW58MHx8fHwxNzU5MjUxMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "witchcraft items"
+    },
+    {
+      "id": "court-cases",
+      "description": "A gavel and law books",
+      "imageUrl": "https://images.unsplash.com/photo-1590099543482-3b3d3083a474?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z2F2ZWwlMjBsYXd8ZW58MHx8fHwxNzU5MjI0ODU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gavel law"
+    },
+    {
+      "id": "love-spells",
+      "description": "A romantic setting with candles and roses",
+      "imageUrl": "https://images.unsplash.com/photo-1550951956-017f785756a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW5kbGVzJTIwcm9zZXN8ZW58MHx8fHwxNzU5MjUxMzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "candles roses"
+    },
+    {
+      "id": "marriage-rituals",
+      "description": "Intertwined wedding rings",
+      "imageUrl": "https://images.unsplash.com/photo-1554047310-ab6170fc7b10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3ZWRkaW5nJTIwcmluZ3N8ZW58MHx8fHwxNzU5MjI4MjQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding rings"
+    },
+    {
+      "id": "job-promotion",
+      "description": "A person climbing a staircase",
+      "imageUrl": "https://images.unsplash.com/photo-1448387473223-5c37445527e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjbGltYmluZyUyMHN0YWlyc3xlbnwwfHx8fDE3NTkyNTEzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "climbing stairs"
+    },
+    {
+      "id": "man-power",
+      "description": "A strong, confident man",
+      "imageUrl": "https://images.unsplash.com/photo-1545346315-f4c47e3e1b55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHJvbmclMjBtYW58ZW58MHx8fHwxNzU5MjUxMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "strong man"
+    },
+    {
+      "id": "spiritual-cleansing",
+      "description": "Sage smudge stick burning",
+      "imageUrl": "https://images.unsplash.com/photo-1618395166504-97ee21b3d1ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzYWdlJTIwc211ZGdlfGVufDB8fHx8MTc1OTI1MTM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sage smudge"
+    },
+    {
+      "id": "family-affairs",
+      "description": "A happy family together",
+      "imageUrl": "https://images.unsplash.com/photo-1694113280467-b742509058d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoYXBweSUyMGZhbWlseXxlbnwwfHx8fDE3NTkxNjMzNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy family"
+    },
+    {
+      "id": "stolen-items",
+      "description": "A lock and key",
+      "imageUrl": "https://images.unsplash.com/photo-1600083907313-9a511348d11f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb2NrJTIwa2V5fGVufDB8fHx8MTc1OTI1MTM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lock key"
+    },
+    {
+      "id": "win-games",
+      "description": "Playing cards and dice",
+      "imageUrl": "https://images.unsplash.com/photo-1623522264952-8dff960ec8f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwbGF5aW5nJTIwY2FyZHN8ZW58MHx8fHwxNzU5MTQwNDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "playing cards"
+    },
+    {
+      "id": "lucky-rings",
+      "description": "An ornate, mystical ring",
+      "imageUrl": "https://images.unsplash.com/photo-1756483554416-1b2358bc916c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvcm5hdGUlMjByaW5nfGVufDB8fHx8MTc1OTI1MTM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ornate ring"
+    },
+    {
+      "id": "boosting-business",
+      "description": "A graph showing upward business growth",
+      "imageUrl": "https://images.unsplash.com/photo-1730382624709-81e52dd294d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncm93dGglMjBjaGFydHxlbnwwfHx8fDE3NTkxMzg0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "growth chart"
     }
   ]
 }
