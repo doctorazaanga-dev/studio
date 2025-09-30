@@ -4,28 +4,44 @@ import { Button } from '@/components/ui/button';
 
 export default function About() {
   return (
-    <section className="py-16 md:py-32">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <Image
-              src="https://picsum.photos/seed/about/600/700"
-              alt="Portrait of the counselor"
-              data-ai-hint="counselor portrait"
-              width={600}
-              height={700}
-              className="rounded-4xl object-cover"
-            />
+    <section className="container mx-auto px-6 py-24">
+      <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <div className="relative w-full max-w-sm">
+            <div className="p-2 border-2 border-accent rounded-t-[200px] rounded-b-3xl overflow-hidden">
+              <Image
+                src="https://picsum.photos/seed/therapist/400/500"
+                alt="Doctor Azaanga, spiritual healer"
+                data-ai-hint="spiritual healer"
+                width={400}
+                height={500}
+                className="w-full h-full object-cover rounded-t-[190px] rounded-b-2xl"
+              />
+            </div>
           </div>
-          <div className="max-w-lg">
-            <h2 className="text-3xl md:text-4xl font-serif font-medium mb-4">A Compassionate Guide for Your Journey</h2>
-            <p className="mb-6 text-muted-foreground">
-              With over 15 years of experience in spiritual counseling and holistic healing, I am dedicated to helping you navigate life's challenges and discover your authentic self. My approach is rooted in empathy, intuition, and a deep respect for your unique path.
+        </div>
+        <div className="w-full lg:w-1/2">
+          <div className="bg-primary-foreground text-foreground p-10 md:p-14 rounded-4xl dark:bg-card">
+            <span className="inline-block px-4 py-1 text-xs font-semibold text-primary-foreground bg-primary border border-gray-600 rounded-full dark:text-primary dark:bg-primary-foreground">
+              ABOUT YOUR THERAPIST
+            </span>
+            <h2 className="mt-4 text-4xl md:text-5xl font-serif font-medium leading-tight text-primary dark:text-primary-foreground">
+              About Doctor Azaanga
+            </h2>
+            <p className="mt-6 text-muted-foreground">
+              Doctor Azaanga is a renowned herbalist, witch doctor, and astrologist dedicated to providing authentic and effective spiritual solutions. With a deep understanding of the mystical world and natural remedies, Doctor Azaanga has been the guiding light for many seeking spiritual healing and empowerment. His profound knowledge and compassionate approach have transformed the lives of countless individuals, bringing harmony, prosperity, and protection.
             </p>
-            <Button>Learn More About My Approach</Button>
+            <Button asChild className="mt-10">
+              <a
+                href="#"
+                className="inline-block px-8 py-4 text-primary-foreground bg-gradient-to-br from-primary via-primary to-accent rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
+              >
+                Book My Free Consultation
+              </a>
+            </Button>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
