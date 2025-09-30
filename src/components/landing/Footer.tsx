@@ -62,8 +62,7 @@ export default function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-semibold text-primary">Contact Us</h3>
             <address className="space-y-2 text-sm not-italic text-muted-foreground">
-              <p>123 Innovation Street</p>
-              <p>Tech City, TC 12345</p>
+              <p>Mubende, Uganda</p>
               <p>Phone: (123) 456-7890</p>
               <p>Email: hello@example.com</p>
             </address>
