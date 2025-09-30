@@ -1,11 +1,28 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
+import { User, Users, Award, Sparkles } from 'lucide-react';
 
 const services = [
-  { title: 'One-on-One Sessions', description: 'Personalized guidance tailored to your specific needs and goals.' },
-  { title: 'Couples Counseling', description: 'Strengthen your bond and navigate relationship challenges together.' },
-  { title: 'Group Workshops', description: 'Connect with a community and explore spiritual topics in a group setting.' },
-  { title: 'Meditation & Mindfulness', description: 'Learn techniques to reduce stress and cultivate inner peace.' },
+  { 
+    title: 'One-on-One Sessions', 
+    description: 'Personalized guidance tailored to your specific needs and goals.',
+    icon: <User className="w-8 h-8 text-primary mb-4" />
+  },
+  { 
+    title: 'Couples Counseling', 
+    description: 'Strengthen your bond and navigate relationship challenges together.',
+    icon: <Users className="w-8 h-8 text-primary mb-4" />
+  },
+  { 
+    title: 'Group Workshops', 
+    description: 'Connect with a community and explore spiritual topics in a group setting.',
+    icon: <Award className="w-8 h-8 text-primary mb-4" />
+  },
+  { 
+    title: 'Meditation & Mindfulness', 
+    description: 'Learn techniques to reduce stress and cultivate inner peace.',
+    icon: <Sparkles className="w-8 h-8 text-primary mb-4" />
+  },
 ];
 
 export default function Services() {
@@ -20,6 +37,7 @@ export default function Services() {
           {services.map(service => (
             <Card key={service.title} className="p-8 bg-background shadow-lg">
               <CardContent className="p-0">
+                {service.icon}
                 <h3 className="text-xl font-bold font-serif mb-2">{service.title}</h3>
                 <p className="text-muted-foreground">{service.description}</p>
               </CardContent>
