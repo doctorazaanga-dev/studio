@@ -9,13 +9,13 @@
     {
       "id": "hero",
       "description": "A serene landscape for a hero image",
-      "imageUrl": "https://images.unsplash.com/photo-1741217531016-79085a306339?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzcGlyaXR1YWwlMjBjb3Vuc2VsaW5nfGVufDB8fHx8MTc1OTI1MDU5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://github.com/doctorazaanga-dev/pics/blob/main/azaanga.jpg?raw=true",
       "imageHint": "spiritual counseling"
     },
     {
       "id": "about",
       "description": "Portrait of a counselor",
-      "imageUrl": "https://github.com/doctorazaanga-dev/pics/blob/main/doctor%20azaanga.jpg?raw=true",
+      "imageUrl": "https://raw.githubusercontent.com/doctorazaanga-dev/pics/refs/heads/main/Long%20distance%20spiritual%20healer.jfif",
       "imageHint": "counselor portrait"
     },
     {
@@ -27,7 +27,7 @@
     {
       "id": "court-cases",
       "description": "A gavel and law books",
-      "imageUrl": "https://images.unsplash.com/photo-1617118601652-3ec3aeaa0e36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYXZlbCUyMGxhd3xlbnwwfHx8fDE3NTkyMjQ4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnYXZlbCUyMGxhd3xlbnwwfHx8fDE3NTkyMjQ4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gavel law"
     },
     {
@@ -93,7 +93,7 @@
     {
       "id": "why-choose-us",
       "description": "Spiritual items on a table",
-      "imageUrl": "https://images.unsplash.com/photo-1590553626401-7a7ba0497666?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGlyaXR1YWwlMjBndWlkZXxlbnwwfHx8fDE3NTkyNTE0NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://raw.githubusercontent.com/doctorazaanga-dev/pics/refs/heads/main/Long%20distance%20spiritual%20healer.jfif",
       "imageHint": "spiritual guide"
     }
   ]
