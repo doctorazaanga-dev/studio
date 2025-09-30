@@ -10,7 +10,7 @@ export default function About() {
           <div className="relative w-full max-w-sm">
             <div className="p-2 border-2 border-accent rounded-t-[200px] rounded-b-3xl overflow-hidden">
               <Image
-                src="https://github.com/doctorazaanga-dev/pics/blob/main/doctor%20azaanga.jpg?raw=true"
+                src="https://raw.githubusercontent.com/doctorazaanga-dev/pics/refs/heads/main/Long%20distance%20spiritual%20healer.jfif"
                 alt="Doctor Azaanga, spiritual healer"
                 data-ai-hint="spiritual healer"
                 width={400}
