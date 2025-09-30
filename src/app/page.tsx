@@ -12,7 +12,7 @@ import Faq from '@/components/landing/Faq';
 import Cta from '@/components/landing/Cta';
 import Footer from '@/components/landing/Footer';
 
-export default function Home() {
+export default function App() {
   return (
     <div className="bg-background font-sans text-foreground antialiased">
       <Header />
