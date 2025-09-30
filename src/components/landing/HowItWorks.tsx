@@ -1,6 +1,6 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { ArrowIcon } from '@/components/icons/ArrowIcon';
 
 const steps = [
   {
@@ -36,14 +36,14 @@ export default function HowItWorks() {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
           {steps.map((step, index) => (
             <React.Fragment key={step.title}>
-              <div className="text-center md:text-left col-span-1">
+              <div className="text-center md:text-left col-span-1 md:col-span-1">
                 <p className="text-6xl font-serif text-primary/50">{step.num}</p>
                 <h3 className="mt-2 text-xl font-semibold uppercase">{step.title}</h3>
                 <p className="mt-2 text-muted-foreground">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
-                <div className="hidden md:flex justify-center col-span-1">
-                  <ArrowRight className="w-16 h-16 text-primary" />
+                <div className="hidden md:flex justify-center col-span-1 md:col-span-1">
+                  <ArrowIcon className="w-24 h-8 text-primary" />
                 </div>
               )}
             </React.Fragment>
