@@ -1,18 +1,22 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
+import { Star } from 'lucide-react';
 
 const testimonials = [
   {
     quote: "Working with Aura has been life-changing. I've found a sense of peace I never thought possible.",
     name: 'Sarah L.',
+    rating: 5,
   },
   {
     quote: "The guidance I received was both profound and practical. I highly recommend their services.",
     name: 'Michael B.',
+    rating: 5,
   },
   {
     quote: "A truly gifted counselor who creates a warm and supportive environment for growth.",
     name: 'Jessica P.',
+    rating: 5,
   },
 ];
 
@@ -26,8 +30,16 @@ export default function Testimonials() {
         <div className="grid lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial) => (
             <Card key={testimonial.name} className="bg-card p-8 rounded-3xl">
-              <CardContent className="p-0">
-                <blockquote className="text-lg italic mb-6">“{testimonial.quote}”</blockquote>
+              <CardContent className="p-0 flex flex-col h-full">
+                <div className="flex mb-4">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star
+                      key={i}
+                      className={`w-5 h-5 ${i < testimonial.rating ? 'text-accent fill-current' : 'text-muted-foreground/50'}`}
+                    />
+                  ))}
+                </div>
+                <blockquote className="text-lg italic mb-6 flex-grow">“{testimonial.quote}”</blockquote>
                 <footer className="font-bold">{testimonial.name}</footer>
               </CardContent>
             </Card>
