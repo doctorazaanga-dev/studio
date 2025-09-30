@@ -10,7 +10,7 @@ export default function About() {
           <div className="relative w-full max-w-sm">
             <div className="p-2 border-2 border-accent rounded-t-[200px] rounded-b-3xl overflow-hidden">
               <Image
-                src="https://picsum.photos/seed/therapist/400/500"
+                src="https://raw.githubusercontent.com/doctorazaanga-dev/pics/main/doctor%20azaanga.jpg"
                 alt="Doctor Azaanga, spiritual healer"
                 data-ai-hint="spiritual healer"
                 width={400}
