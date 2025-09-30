@@ -7,56 +7,56 @@ const testimonials = [
   {
     text: "The retreat was a deeply healing and transformative experience. I left feeling rejuvenated and more connected to my spiritual self. The guidance I received helped me release emotional blockages and gain a clearer vision for my life's path.",
     image: "https://picsum.photos/seed/1/40/40",
-    name: "Ryan Martinez",
-    role: "39, Austin, TX"
+    name: "Ryan",
+    role: "39"
   },
   {
     text: "I reached out to Doctor Azaanga during a period of uncertainty in my relationship. His counselling helped me understand my feelings better and gave me the tools to communicate more openly with my partner. Our connection is now stronger, and I feel more secure in myself.",
     image: "https://picsum.photos/seed/2/40/40",
-    name: "Mark Williams",
-    role: "45, London, UK"
+    name: "Mark",
+    role: "45"
   },
   {
     text: "After years of burnout, energy healing with Doctor Azaanga has brought a sense of calm and balance back into my life. His intuitive approach significantly reduced my stress levels.",
     image: "https://picsum.photos/seed/3/40/40",
-    name: "Jessica Patel",
-    role: "32, Toronto, CA"
+    name: "Jessica",
+    role: "32"
   },
   {
     text: "The retreat was a transformative experience that deepened my spiritual connection and gave me the strength to move forward.",
     image: "https://picsum.photos/seed/4/40/40",
-    name: "Michael Lee",
-    role: "51, Sydney, AU"
+    name: "Michael",
+    role: "51"
   },
   {
     text: "Energy healing with Doctor Azaanga has been life-changing—my stress and anxiety have significantly reduced.",
     image: "https://picsum.photos/seed/5/40/40",
-    name: "Emily Thompson",
-    role: "29, New York, NY"
+    name: "Emily",
+    role: "29"
   },
   {
     text: "I felt truly seen and heard on my journey—Doctor Azaanga is a compassionate guide who truly understands my needs.",
     image: "https://picsum.photos/seed/6/40/40",
-    name: "Sarah Johnson",
-    role: "41, Los Angeles, CA"
+    name: "Sarah",
+    role: "41"
   },
   {
     text: "Doctor Azaanga's guidance helped me navigate a difficult career transition with confidence and clarity. I am now in a role that feels aligned with my purpose.",
     image: "https://picsum.photos/seed/7/40/40",
-    name: "David Chen",
-    role: "35, Singapore"
+    name: "David",
+    role: "35"
   },
   {
     text: "The spiritual cleansing ritual was incredibly powerful. I feel lighter, more centered, and free from negative energy that was holding me back.",
     image: "https://picsum.photos/seed/8/40/40",
-    name: "Aisha Mohammed",
-    role: "48, Dubai, UAE"
+    name: "Aisha",
+    role: "48"
   },
   {
     text: "I was skeptical about love spells, but Doctor Azaanga's ritual helped me open my heart again after a painful divorce. I've since found a loving partner.",
     image: "https://picsum.photos/seed/9/40/40",
-    name: "Maria Garcia",
-    role: "55, Madrid, ES"
+    name: "Maria",
+    role: "55"
   },
 ];
 
