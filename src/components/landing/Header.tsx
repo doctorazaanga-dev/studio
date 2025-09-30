@@ -1,17 +1,30 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function Header() {
+  const navLinks = ['About', 'Services', 'Testimonials', 'FAQ'];
+
   return (
-    <header className="absolute top-0 left-0 right-0 z-10 py-6 px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-2xl font-bold font-serif text-white">Aura</div>
-        <nav className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-white hover:text-opacity-80 transition">About</a>
-          <a href="#" className="text-white hover:text-opacity-80 transition">Services</a>
-          <a href="#" className="text-white hover:text-opacity-80 transition">Testimonials</a>
+    <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg">
+      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+        <Link href="/" aria-label="Home" className="text-2xl font-bold font-serif text-primary">
+          Aura
+        </Link>
+        <nav className="hidden md:flex space-x-8">
+          {navLinks.map((link) => (
+            <a key={link} href={`#${link.toLowerCase()}`} className="text-foreground hover:text-primary transition-colors duration-300">
+              {link}
+            </a>
+          ))}
         </nav>
-        <Button variant="secondary">Book a Session</Button>
+        <Button asChild>
+           <a
+              href="#"
+            >
+              Book My Free Consultation
+            </a>
+        </Button>
       </div>
     </header>
   );
