@@ -4,8 +4,33 @@ import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Spiritual Counselling',
-  description: 'A space for introspection and personal growth.',
+  title: {
+    default: 'Spiritual Healing & Guidance | Doctor Azaanga',
+    template: `%s | Doctor Azaanga`,
+  },
+  description: 'Find peace and clarity with Doctor Azaanga, a trusted spiritual healer, herbalist, and astrologist. Offering love spells, spiritual cleansing, and guidance for life’s challenges in Mubende, Uganda.',
+  keywords: ['spiritual healing', 'herbalist', 'witch doctor', 'astrologist', 'love spells', 'spiritual cleansing', 'Mubende', 'Uganda', 'Doctor Azaanga'],
+  openGraph: {
+    title: 'Spiritual Healing & Guidance | Doctor Azaanga',
+    description: 'Find peace and clarity with Doctor Azaanga, a trusted spiritual healer, herbalist, and astrologist in Mubende, Uganda.',
+    url: 'https://www.doctorazaanga.com', // Replace with your actual domain
+    siteName: 'Doctor Azaanga',
+    images: [
+      {
+        url: 'https://github.com/doctorazaanga-dev/pics/blob/main/azaanga.jpg?raw=true', // Main OG image
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Spiritual Healing & Guidance | Doctor Azaanga',
+    description: 'Find peace and clarity with Doctor Azaanga, a trusted spiritual healer, herbalist, and astrologist in Mubende, Uganda.',
+    images: ['https://github.com/doctorazaanga-dev/pics/blob/main/azaanga.jpg?raw=true'], // Twitter card image
+  },
 };
 
 export default function RootLayout({
