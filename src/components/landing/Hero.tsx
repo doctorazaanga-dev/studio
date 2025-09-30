@@ -1,27 +1,43 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
-    <section className="relative h-[80vh] min-h-[600px] flex items-center text-white">
-      <Image
-        src="https://picsum.photos/seed/hero/1800/1200"
-        alt="Spiritual counseling session"
-        data-ai-hint="spiritual counseling"
-        fill
-        className="object-cover"
-        priority
-      />
-      <div className="absolute inset-0 bg-brand-dark bg-opacity-60"></div>
-      <div className="relative container mx-auto text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-serif font-medium mb-4">Find Your Inner Peace</h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
-          Guidance and support for your spiritual journey. Reconnect with your true self.
+    <section className="container mx-auto px-6 pt-16 pb-24 text-center">
+      <div className="max-w-3xl mx-auto">
+        <span className="inline-block px-4 py-1 text-xs font-semibold text-primary bg-background border border-border rounded-full">
+          SPIRITUAL COUNSELLING
+        </span>
+        <h1 className="mt-4 text-5xl md:text-7xl font-serif font-medium text-foreground leading-tight">
+          Finally Find Peace Of Mind
+        </h1>
+        <p className="mt-6 text-lg text-muted-foreground">
+          Helping you navigate life&apos;s challenges with wisdom, compassion, and inner peace.
         </p>
-        <Button size="lg" className="bg-accent text-brand-dark hover:bg-accent/90">
-          Begin Your Journey
+        <Button asChild size="lg" className="mt-8 text-primary-foreground bg-gradient-to-br from-primary to-accent rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
+          <a
+            href="#"
+          >
+            Book My Free Consultation
+          </a>
         </Button>
+      </div>
+      <div className="mt-16 flex justify-center">
+        <div className="relative w-full max-w-sm">
+          <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-background to-transparent z-10"></div>
+          <div className="relative w-full h-[450px] p-2 border-2 border-accent rounded-t-[200px] rounded-b-3xl overflow-hidden">
+            <Image
+              src="https://picsum.photos/seed/meditate/400/600" 
+              alt="Woman meditating peacefully"
+              data-ai-hint="woman meditating"
+              fill
+              className="w-full h-full object-cover rounded-t-[190px] rounded-b-2xl"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
