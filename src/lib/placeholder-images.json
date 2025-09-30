@@ -89,6 +89,12 @@
       "description": "A graph showing upward business growth",
       "imageUrl": "https://images.unsplash.com/photo-1730382624709-81e52dd294d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncm93dGglMjBjaGFydHxlbnwwfHx8fDE3NTkxMzg0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "growth chart"
+    },
+    {
+      "id": "why-choose-us",
+      "description": "Spiritual items on a table",
+      "imageUrl": "https://images.unsplash.com/photo-1590553626401-7a7ba0497666?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGlyaXR1YWwlMjBndWlkZXxlbnwwfHx8fDE3NTkyNTE0NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spiritual guide"
     }
   ]
 }
