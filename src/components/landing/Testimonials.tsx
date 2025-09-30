@@ -5,58 +5,58 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    text: "This ERP revolutionized our operations, streamlining finance and inventory. The cloud-based platform keeps us productive, even remotely.",
+    text: "The retreat was a deeply healing and transformative experience. I left feeling rejuvenated and more connected to my spiritual self. The guidance I received helped me release emotional blockages and gain a clearer vision for my life's path.",
     image: "https://picsum.photos/seed/1/40/40",
-    name: "Briana Patton",
-    role: "Operations Manager",
+    name: "Ryan Martinez",
+    role: "39, Austin, TX"
   },
   {
-    text: "Implementing this ERP was smooth and quick. The customizable, user-friendly interface made team training effortless.",
+    text: "I reached out to Doctor Azaanga during a period of uncertainty in my relationship. His counselling helped me understand my feelings better and gave me the tools to communicate more openly with my partner. Our connection is now stronger, and I feel more secure in myself.",
     image: "https://picsum.photos/seed/2/40/40",
-    name: "Bilal Ahmed",
-    role: "IT Manager",
+    name: "Mark Williams",
+    role: "45, London, UK"
   },
   {
-    text: "The support team is exceptional, guiding us through setup and providing ongoing assistance, ensuring our satisfaction.",
+    text: "After years of burnout, energy healing with Doctor Azaanga has brought a sense of calm and balance back into my life. His intuitive approach significantly reduced my stress levels.",
     image: "https://picsum.photos/seed/3/40/40",
-    name: "Saman Malik",
-    role: "Customer Support Lead",
+    name: "Jessica Patel",
+    role: "32, Toronto, CA"
   },
   {
-    text: "This ERP's seamless integration enhanced our business operations and efficiency. Highly recommend for its intuitive interface.",
+    text: "The retreat was a transformative experience that deepened my spiritual connection and gave me the strength to move forward.",
     image: "https://picsum.photos/seed/4/40/40",
-    name: "Omar Raza",
-    role: "CEO",
+    name: "Michael Lee",
+    role: "51, Sydney, AU"
   },
   {
-    text: "Its robust features and quick support have transformed our workflow, making us significantly more efficient.",
+    text: "Energy healing with Doctor Azaanga has been life-changing—my stress and anxiety have significantly reduced.",
     image: "https://picsum.photos/seed/5/40/40",
-    name: "Zainab Hussain",
-    role: "Project Manager",
+    name: "Emily Thompson",
+    role: "29, New York, NY"
   },
   {
-    text: "The smooth implementation exceeded expectations. It streamlined processes, improving overall business performance.",
+    text: "I felt truly seen and heard on my journey—Doctor Azaanga is a compassionate guide who truly understands my needs.",
     image: "https://picsum.photos/seed/6/40/40",
-    name: "Aliza Khan",
-    role: "Business Analyst",
+    name: "Sarah Johnson",
+    role: "41, Los Angeles, CA"
   },
   {
-    text: "Our business functions improved with a user-friendly design and positive customer feedback.",
+    text: "Doctor Azaanga's guidance helped me navigate a difficult career transition with confidence and clarity. I am now in a role that feels aligned with my purpose.",
     image: "https://picsum.photos/seed/7/40/40",
-    name: "Farhan Siddiqui",
-    role: "Marketing Director",
+    name: "David Chen",
+    role: "35, Singapore"
   },
   {
-    text: "They delivered a solution that exceeded expectations, understanding our needs and enhancing our operations.",
+    text: "The spiritual cleansing ritual was incredibly powerful. I feel lighter, more centered, and free from negative energy that was holding me back.",
     image: "https://picsum.photos/seed/8/40/40",
-    name: "Sana Sheikh",
-    role: "Sales Manager",
+    name: "Aisha Mohammed",
+    role: "48, Dubai, UAE"
   },
   {
-    text: "Using this ERP, our online presence and conversions significantly improved, boosting business performance.",
+    text: "I was skeptical about love spells, but Doctor Azaanga's ritual helped me open my heart again after a painful divorce. I've since found a loving partner.",
     image: "https://picsum.photos/seed/9/40/40",
-    name: "Hassan Ali",
-    role: "E-commerce Manager",
+    name: "Maria Garcia",
+    role: "55, Madrid, ES"
   },
 ];
 
@@ -83,10 +83,10 @@ const Testimonials = () => {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-serif font-medium text-foreground mt-5">
-            What our users say
+            What Clients Say
           </h2>
           <p className="text-center mt-5 opacity-75 text-muted-foreground">
-            See what our customers have to say about us.
+            See what others are saying about their healing journey.
           </p>
         </motion.div>
 
