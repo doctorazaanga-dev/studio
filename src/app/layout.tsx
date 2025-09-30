@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Soulful Reflections',
+  title: 'Spiritual Counselling',
   description: 'A space for introspection and personal growth.',
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
       </head>
-      <body className="font-body antialiased">
+      <body className="font-sans antialiased">
         {children}
         <Toaster />
       </body>
