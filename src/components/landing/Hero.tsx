@@ -30,9 +30,9 @@ export default function Hero() {
           <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-background to-transparent z-10"></div>
           <div className="relative w-full h-[450px] p-2 border-2 border-accent rounded-t-[200px] rounded-b-3xl overflow-hidden">
             <Image
-              src="https://picsum.photos/seed/meditate/400/600" 
-              alt="Woman meditating peacefully"
-              data-ai-hint="woman meditating"
+              src="https://github.com/doctorazaanga-dev/pics/blob/main/azaanga.jpg?raw=true" 
+              alt="Doctor Azaanga, spiritual healer"
+              data-ai-hint="spiritual healer"
               fill
               className="w-full h-full object-cover rounded-t-[190px] rounded-b-2xl"
             />
